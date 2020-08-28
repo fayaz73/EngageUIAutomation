@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="utilities.Reporting"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test1">
+  <parameter name="browsers" value="chrome"></parameter>
+  <classes>
+       <!-- <class name="scripts.loginTest"/> -->
+     <!--   <class name="scripts.SegmentTest"/> -->
+   <!-- <class name="scripts.CallCenterEngagementTest"/> -->   
+    <!-- <class name="scripts.AppPushEngagementTest"/> -->
+   <!--  <class name="scripts.SMSEngagementTest" /> -->
+   <!-- <class name="scripts.EmailEngagementTest" /> -->
+     <class name="scripts.WPNEngagementTest"/>
+   <!--   <class name="scripts.OnsiteEngagementTest" /> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

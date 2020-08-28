@@ -1,0 +1,193 @@
+2020-08-24 09:03:24,455 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 09:03:40,599 - WPNEngagementTest -INFO - segment is found
+2020-08-24 09:25:02,585 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 09:25:17,774 - WPNEngagementTest -INFO - segment is found
+2020-08-24 09:50:12,192 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 09:50:26,408 - WPNEngagementTest -INFO - segment is found
+2020-08-24 11:41:42,070 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 11:41:52,070 - WPNEngagementTest -INFO - segment is found
+2020-08-24 12:43:04,664 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 12:43:14,920 - WPNEngagementTest -INFO - segment is found
+2020-08-24 12:48:10,123 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 12:48:19,958 - WPNEngagementTest -INFO - segment is found
+2020-08-24 12:51:47,979 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 12:51:58,188 - WPNEngagementTest -INFO - segment is found
+2020-08-24 14:03:02,434 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 14:03:12,492 - WPNEngagementTest -INFO - segment is found
+2020-08-24 15:22:12,378 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 15:22:24,299 - WPNEngagementTest -INFO - segment is found
+2020-08-24 18:38:30,176 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 18:38:40,442 - WPNEngagementTest -INFO - segment is found
+2020-08-24 19:05:05,581 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 19:05:15,809 - WPNEngagementTest -INFO - segment is found
+2020-08-24 19:41:31,423 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 19:41:43,473 - WPNEngagementTest -INFO - segment is found
+2020-08-24 19:53:14,622 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 19:53:27,502 - WPNEngagementTest -INFO - segment is found
+2020-08-24 20:21:05,307 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 20:21:19,825 - WPNEngagementTest -INFO - segment is found
+2020-08-24 20:42:03,196 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 20:42:13,658 - WPNEngagementTest -INFO - segment is found
+2020-08-24 21:08:01,155 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 21:08:12,255 - WPNEngagementTest -INFO - segment is found
+2020-08-24 21:42:23,000 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 21:42:23,886 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 21:51:16,790 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 21:51:21,919 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 23:10:56,671 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-24 23:10:57,437 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-24 23:12:51,190 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-24 23:12:51,626 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-24 23:15:08,750 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-24 23:15:08,884 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-24 23:18:35,640 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-24 23:18:39,439 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-24 23:20:23,360 - Automate_NewUI -INFO - username entered
+2020-08-24 23:20:23,969 - Automate_NewUI -INFO - password entered
+2020-08-24 23:21:07,779 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-24 23:21:07,783 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-24 23:21:50,502 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-24 23:22:00,793 - WPNEngagementTest -INFO - segment is found
+2020-08-24 23:22:47,836 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-24 23:22:47,839 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-24 23:40:36,878 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-24 23:40:37,037 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-24 23:51:49,476 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 01:00:05,747 - Automate_NewUI -INFO - username entered
+2020-08-25 01:00:07,013 - Automate_NewUI -INFO - password entered
+2020-08-25 01:00:19,003 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 01:00:19,147 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 01:01:16,130 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 01:01:26,851 - WPNEngagementTest -INFO - segment is found
+2020-08-25 01:12:47,318 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 01:12:47,332 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 01:13:10,598 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 01:13:20,308 - WPNEngagementTest -INFO - segment is found
+2020-08-25 06:21:11,695 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 06:27:27,119 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 06:40:53,863 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 06:40:53,877 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 06:51:33,203 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 06:51:33,243 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 06:52:51,577 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 06:52:51,583 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 06:55:48,656 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 06:55:48,689 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 06:56:17,064 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 06:56:17,073 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 06:56:44,291 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 06:56:44,295 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:07:33,970 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:07:34,001 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:07:34,015 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:07:34,023 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:07:52,463 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 07:08:02,280 - WPNEngagementTest -INFO - segment is found
+2020-08-25 07:13:41,676 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:13:41,768 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:13:41,805 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:13:41,836 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:24:26,469 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:24:26,507 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:24:26,520 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:24:26,534 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:34:04,272 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:34:04,312 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:34:42,660 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:34:42,666 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:39:31,486 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:39:31,537 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:41:21,187 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:41:21,193 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:41:55,124 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:41:55,176 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:43:11,818 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:43:11,827 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:48:43,660 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:48:43,699 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:49:17,826 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:49:17,834 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:52:08,291 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:52:08,320 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:52:08,334 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:52:08,346 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:53:03,707 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:53:03,777 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:53:03,789 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:53:03,796 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:53:27,793 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:53:27,818 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:53:27,831 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:53:27,836 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:57:04,491 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:57:04,518 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 07:57:04,532 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 07:57:04,541 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:06:11,883 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:06:11,910 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:06:11,923 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:06:11,930 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:06:31,568 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 08:06:42,228 - WPNEngagementTest -INFO - segment is found
+2020-08-25 08:16:14,366 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:16:14,400 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:16:14,411 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:16:14,418 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:18:53,729 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:18:53,757 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:18:53,770 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:18:53,777 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:19:16,347 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 08:19:27,232 - WPNEngagementTest -INFO - segment is found
+2020-08-25 08:21:56,376 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:21:56,404 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 08:21:56,416 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 2.41 (since Google Chrome 67 is installed in your machine)
+2020-08-25 08:21:56,424 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as /home/fayaz/.m2/repository/webdriver/chromedriver/linux64/2.41/chromedriver
+2020-08-25 09:21:59,337 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 09:22:11,933 - WPNEngagementTest -INFO - segment is found
+2020-08-25 09:30:00,914 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 09:30:18,402 - WPNEngagementTest -INFO - segment is found
+2020-08-25 09:33:58,305 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 09:34:12,460 - WPNEngagementTest -INFO - segment is found
+2020-08-25 09:42:29,223 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 09:42:46,854 - WPNEngagementTest -INFO - segment is found
+2020-08-25 09:46:26,229 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 09:46:43,541 - WPNEngagementTest -INFO - segment is found
+2020-08-25 10:05:51,712 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 10:06:03,161 - WPNEngagementTest -INFO - segment is found
+2020-08-25 18:21:44,044 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 18:21:54,411 - WPNEngagementTest -INFO - segment is found
+2020-08-25 19:07:14,318 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 19:07:24,702 - WPNEngagementTest -INFO - segment is found
+2020-08-25 23:43:42,061 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 23:44:09,047 - WPNEngagementTest -INFO - segment is found
+2020-08-25 23:50:51,450 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-25 23:51:00,690 - WPNEngagementTest -INFO - segment is found
+2020-08-26 00:02:10,396 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-26 00:02:19,600 - WPNEngagementTest -INFO - segment is found
+2020-08-26 00:05:18,929 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-26 00:05:27,590 - WPNEngagementTest -INFO - segment is found
+2020-08-26 00:22:41,942 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-26 00:22:51,528 - WPNEngagementTest -INFO - segment is found
+2020-08-26 00:25:32,044 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-26 00:25:41,302 - WPNEngagementTest -INFO - segment is found
+2020-08-26 00:26:23,634 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:27:06,383 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:28:10,933 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:28:54,727 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:29:35,011 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:30:08,230 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:31:11,768 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:31:42,656 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:32:10,955 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:49:26,994 - WPNEngagementTest -INFO - User logged in successfully
+2020-08-26 00:49:37,463 - WPNEngagementTest -INFO - segment is found
+2020-08-26 00:50:49,315 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:51:50,458 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:52:41,312 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:53:25,759 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:54:04,091 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:54:36,933 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:55:14,744 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:55:47,871 - WPNEngagementTest -INFO - startfirstTestmethod
+2020-08-26 00:56:18,082 - WPNEngagementTest -INFO - startfirstTestmethod
