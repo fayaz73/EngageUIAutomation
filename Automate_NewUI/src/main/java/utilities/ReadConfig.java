@@ -16,7 +16,7 @@ public class ReadConfig {
 	public ReadConfig() {
 		
 		
-		File src = new File("/home/fayaz/Documents/NewReactUI/Automate_NewUI/Configuration/config.properties");
+		File src = new File(System.getProperty("user.dir") + "/Configuration/config.properties");
 		
 		try {
 			

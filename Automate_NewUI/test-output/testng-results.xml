@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="1" total="10" passed="7">
+<testng-results skipped="0" failed="2" ignored="4" total="15" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="589799" started-at="2020-08-26T00:46:57 IST" finished-at="2020-08-26T00:56:47 IST">
+  <suite name="Suite" duration-ms="648195" started-at="2020-08-31T22:16:30 IST" finished-at="2020-08-31T22:27:18 IST">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="589799" started-at="2020-08-26T00:46:57 IST" finished-at="2020-08-26T00:56:47 IST">
-      <class name="scripts.WPNEngagementTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="setUp" is-config="true" duration-ms="79627" started-at="2020-08-26T00:47:01 IST" finished-at="2020-08-26T00:48:21 IST">
+    <test name="Test" duration-ms="648195" started-at="2020-08-31T22:16:30 IST" finished-at="2020-08-31T22:27:18 IST">
+      <class name="scripts.SegmentTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:scripts.SegmentTest@3cc2931c]" name="setUp" is-config="true" duration-ms="14180" started-at="2020-08-31T22:16:30 IST" finished-at="2020-08-31T22:16:44 IST">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="instances(java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="instances" is-config="true" duration-ms="78865" started-at="2020-08-26T00:48:21 IST" finished-at="2020-08-26T00:49:40 IST">
+        <test-method status="PASS" signature="segmentPreCondtion(java.lang.String)[pri:0, instance:scripts.SegmentTest@3cc2931c]" name="segmentPreCondtion" is-config="true" duration-ms="171066" started-at="2020-08-31T22:16:44 IST" finished-at="2020-08-31T22:19:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segmentPreCondtion -->
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.SegmentTest@3cc2931c]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:19:35 IST" finished-at="2020-08-31T22:19:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="segmentCreationTest()[pri:1, instance:scripts.SegmentTest@3cc2931c]" name="segmentCreationTest" duration-ms="31516" started-at="2020-08-31T22:19:35 IST" finished-at="2020-08-31T22:20:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segmentCreationTest -->
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.SegmentTest@3cc2931c]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:20:07 IST" finished-at="2020-08-31T22:20:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="editSegmentTest()[pri:2, instance:scripts.SegmentTest@3cc2931c]" name="editSegmentTest" duration-ms="24771" started-at="2020-08-31T22:20:07 IST" finished-at="2020-08-31T22:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editSegmentTest -->
+      </class> <!-- scripts.SegmentTest -->
+      <class name="scripts.WPNEngagementTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="setUp" is-config="true" duration-ms="14180" started-at="2020-08-31T22:16:30 IST" finished-at="2020-08-31T22:16:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="instances(java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="instances" is-config="true" duration-ms="192025" started-at="2020-08-31T22:16:44 IST" finished-at="2020-08-31T22:19:56 IST">
           <params>
             <param index="0">
               <value>
@@ -29,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instances -->
-        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="68740" started-at="2020-08-26T00:50:35 IST" data-provider="getData" finished-at="2020-08-26T00:51:43 IST">
+        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="57882" started-at="2020-08-31T22:20:49 IST" data-provider="getData" finished-at="2020-08-31T22:21:47 IST">
           <params>
             <param index="0">
               <value>
@@ -100,7 +140,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="50828" started-at="2020-08-26T00:51:44 IST" data-provider="getData" finished-at="2020-08-26T00:52:35 IST">
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:20:49 IST" finished-at="2020-08-31T22:20:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:21:50 IST" finished-at="2020-08-31T22:21:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="50945" started-at="2020-08-31T22:21:50 IST" data-provider="getData" finished-at="2020-08-31T22:22:41 IST">
           <params>
             <param index="0">
               <value>
@@ -171,7 +219,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="FAIL" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="41380" started-at="2020-08-26T00:52:35 IST" data-provider="getData" finished-at="2020-08-26T00:53:17 IST">
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="1" started-at="2020-08-31T22:22:41 IST" finished-at="2020-08-31T22:22:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="FAIL" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="47299" started-at="2020-08-31T22:22:41 IST" data-provider="getData" finished-at="2020-08-31T22:23:28 IST">
           <params>
             <param index="0">
               <value>
@@ -239,12 +291,18 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at scripts.BaseTest.captureScreen(BaseTest.java:135)
-at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:244)
-at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:138)
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:255)
+at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:147)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -257,29 +315,20 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="FAIL" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="36329" started-at="2020-08-26T00:53:22 IST" data-provider="getData" finished-at="2020-08-26T00:53:58 IST">
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="1" started-at="2020-08-31T22:23:29 IST" finished-at="2020-08-31T22:23:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="FAIL" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="44925" started-at="2020-08-31T22:23:29 IST" data-provider="getData" finished-at="2020-08-31T22:24:14 IST">
           <params>
             <param index="0">
               <value>
@@ -347,12 +396,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at scripts.BaseTest.captureScreen(BaseTest.java:135)
-at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:244)
-at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:138)
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:255)
+at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:147)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -365,29 +420,20 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="32697" started-at="2020-08-26T00:53:58 IST" data-provider="getData" finished-at="2020-08-26T00:54:31 IST">
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:24:14 IST" finished-at="2020-08-31T22:24:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="43781" started-at="2020-08-31T22:24:14 IST" data-provider="getData" finished-at="2020-08-31T22:24:58 IST">
           <params>
             <param index="0">
               <value>
@@ -458,7 +504,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="37795" started-at="2020-08-26T00:54:31 IST" data-provider="getData" finished-at="2020-08-26T00:55:09 IST">
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:24:58 IST" finished-at="2020-08-31T22:24:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="35449" started-at="2020-08-31T22:24:58 IST" data-provider="getData" finished-at="2020-08-31T22:25:34 IST">
           <params>
             <param index="0">
               <value>
@@ -529,7 +579,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="33148" started-at="2020-08-26T00:55:09 IST" data-provider="getData" finished-at="2020-08-26T00:55:42 IST">
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:25:34 IST" finished-at="2020-08-31T22:25:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="32588" started-at="2020-08-31T22:25:34 IST" data-provider="getData" finished-at="2020-08-31T22:26:06 IST">
           <params>
             <param index="0">
               <value>
@@ -600,7 +654,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="32054" started-at="2020-08-26T00:55:42 IST" data-provider="getData" finished-at="2020-08-26T00:56:14 IST">
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:26:06 IST" finished-at="2020-08-31T22:26:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
+        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="35794" started-at="2020-08-31T22:26:06 IST" data-provider="getData" finished-at="2020-08-31T22:26:42 IST">
           <params>
             <param index="0">
               <value>
@@ -671,7 +729,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
-        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@1e4a7dd4]" name="invalidWPNEngagement" duration-ms="31269" started-at="2020-08-26T00:56:14 IST" data-provider="getData" finished-at="2020-08-26T00:56:45 IST">
+        <test-method status="PASS" signature="invalidWPNEngagement(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="invalidWPNEngagement" duration-ms="35213" started-at="2020-08-31T22:26:42 IST" data-provider="getData" finished-at="2020-08-31T22:27:17 IST">
           <params>
             <param index="0">
               <value>
@@ -742,7 +800,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWPNEngagement -->
+        <test-method status="PASS" signature="stopAutomate()[pri:0, instance:scripts.WPNEngagementTest@20d28811]" name="stopAutomate" is-config="true" duration-ms="0" started-at="2020-08-31T22:26:42 IST" finished-at="2020-08-31T22:26:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAutomate -->
       </class> <!-- scripts.WPNEngagementTest -->
-    </test> <!-- Test1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

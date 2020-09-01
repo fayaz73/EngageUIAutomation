@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
+                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -121,7 +121,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.SegmentTest" hash-for-method="editSegmentTest">editSegmentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.WPNEngagementTest" hash-for-method="invalidWPNEngagement(validInput1, title goes here, message goes here, https://www.google.com, Personal Loan, text goes he...)">invalidWPNEngagement(validInput1, title goes here, message goes here, https://www.google.com, Personal Loan, text goes he...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.WPNEngagementTest" hash-for-method="invalidWPNEngagement(engagement3, &lt;input onselect=alert(1) value=&quot;XSS&quot; autofocus&gt;, &lt;input onselect=alert(1) value=&quot;XSS&quot; a...)">invalidWPNEngagement(engagement3, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.WPNEngagementTest" hash-for-method="invalidWPNEngagement(engagement4, &lt;audio autoplay controls onseeking=alert(1)&gt;&lt;source src=&quot;validaudio.wav&quot; type=&quot;audio/wa...)">invalidWPNEngagement(engagement4, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wa...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,17 +156,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.WPNEngagementTest" hash-for-method="invalidWPNEngagement(engagement3, &lt;input onselect=alert(1) value=&quot;XSS&quot; autofocus&gt;, &lt;input onselect=alert(1) value=&quot;XSS&quot; a...)">invalidWPNEngagement(engagement3, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" a...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.WPNEngagementTest" hash-for-method="invalidWPNEngagement(engagement4, &lt;audio autoplay controls onseeking=alert(1)&gt;&lt;source src=&quot;validaudio.wav&quot; type=&quot;audio/wa...)">invalidWPNEngagement(engagement4, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wa...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.WPNEngagementTest" hash-for-method="invalidWPNEngagement(NoLabel, title goes here, message goes here, https://www.google.com, Prsonal Loan, text goes herer, ...)">invalidWPNEngagement(NoLabel, title goes here, message goes here, https://www.google.com, Prsonal Loan, text goes herer, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.SegmentTest" hash-for-method="segmentCreationTest">segmentCreationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -178,12 +188,13 @@
                   </a> <!-- invalidWPNEngagement(engagement6, <script>location='javascript:alert\x281\x29'</script>, <script>location='javascript:ale...) -->
                   <span class="method-name">invalidWPNEngagement</span>
                   <span class="parameters">(engagement6, <script>location='javascript:alert\x281\x29'</script>, <script>location='javascript:alert\x281\x29'</script>, https://www.google.com, Personal Loan, <script>location='javascript:alert\x281\x29'</script>, https://www.google.com, <script>location='javascript:alert\x281\x29'</script>, <script>location='javascript:alert\x281\x29'</script>, https://www.google.com, On Trigger, Immediately, Insecure content detected. Please verify and try again.)</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at scripts.BaseTest.captureScreen(BaseTest.java:135)
-	at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:244)
-	at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:138)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:255)
+	at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:147)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -193,17 +204,40 @@
                   </a> <!-- invalidWPNEngagement(engagement5, <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>, <script>'alert\...) -->
                   <span class="method-name">invalidWPNEngagement</span>
                   <span class="parameters">(engagement5, <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>, <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>, https://www.google.com, Personal Loan, <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>, https://www.google.com, <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>, <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>, https://www.google.com, On Trigger, Immediately, Insecure content detected. Please verify and try again.)</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at scripts.BaseTest.captureScreen(BaseTest.java:135)
-	at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:244)
-	at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:138)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at scripts.WPNEngagementTest.verification(WPNEngagementTest.java:255)
+	at scripts.WPNEngagementTest.invalidWPNEngagement(WPNEngagementTest.java:147)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.SegmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editSegmentTest">
+                  </a> <!-- editSegmentTest -->
+                  <span class="method-name">editSegmentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="segmentCreationTest">
+                  </a> <!-- segmentCreationTest -->
+                  <span class="method-name">segmentCreationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -216,6 +250,22 @@
                   </a> <!-- invalidWPNEngagement(validInput1, title goes here, message goes here, https://www.google.com, Personal Loan, text goes he...) -->
                   <span class="method-name">invalidWPNEngagement</span>
                   <span class="parameters">(validInput1, title goes here, message goes here, https://www.google.com, Personal Loan, text goes herer, https://www.google.com, fallbacktitle, fallbackmessage, https://www.google.com, On Trigger, Immediately, Engagement created Successfully)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidWPNEngagement(engagement3, &lt;input onselect=alert(1) value=&quot;XSS&quot; autofocus&gt;, &lt;input onselect=alert(1) value=&quot;XSS&quot; a...)">
+                  </a> <!-- invalidWPNEngagement(engagement3, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" a...) -->
+                  <span class="method-name">invalidWPNEngagement</span>
+                  <span class="parameters">(engagement3, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" autofocus>, https://www.google.com, Personal Loan, <input onselect=alert(1) value="XSS" autofocus>, https://www.google.com, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" autofocus>, https://www.google.com, On Trigger, Immediately, Insecure content detected. Please verify and try again.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidWPNEngagement(engagement4, &lt;audio autoplay controls onseeking=alert(1)&gt;&lt;source src=&quot;validaudio.wav&quot; type=&quot;audio/wa...)">
+                  </a> <!-- invalidWPNEngagement(engagement4, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wa...) -->
+                  <span class="method-name">invalidWPNEngagement</span>
+                  <span class="parameters">(engagement4, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, https://www.google.com, Personal Loan, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, https://www.google.com, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, https://www.google.com, On Trigger, Immediately, Insecure content detected. Please verify and try again.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -244,22 +294,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidWPNEngagement(engagement3, &lt;input onselect=alert(1) value=&quot;XSS&quot; autofocus&gt;, &lt;input onselect=alert(1) value=&quot;XSS&quot; a...)">
-                  </a> <!-- invalidWPNEngagement(engagement3, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" a...) -->
-                  <span class="method-name">invalidWPNEngagement</span>
-                  <span class="parameters">(engagement3, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" autofocus>, https://www.google.com, Personal Loan, <input onselect=alert(1) value="XSS" autofocus>, https://www.google.com, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" autofocus>, https://www.google.com, On Trigger, Immediately, Insecure content detected. Please verify and try again.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidWPNEngagement(engagement4, &lt;audio autoplay controls onseeking=alert(1)&gt;&lt;source src=&quot;validaudio.wav&quot; type=&quot;audio/wa...)">
-                  </a> <!-- invalidWPNEngagement(engagement4, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wa...) -->
-                  <span class="method-name">invalidWPNEngagement</span>
-                  <span class="parameters">(engagement4, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, https://www.google.com, Personal Loan, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, https://www.google.com, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>, https://www.google.com, On Trigger, Immediately, Insecure content detected. Please verify and try again.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="invalidWPNEngagement(NoLabel, title goes here, message goes here, https://www.google.com, Prsonal Loan, text goes herer, ...)">
                   </a> <!-- invalidWPNEngagement(NoLabel, title goes here, message goes here, https://www.google.com, Prsonal Loan, text goes herer, ...) -->
                   <span class="method-name">invalidWPNEngagement</span>
@@ -271,22 +305,23 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/fayaz/Documents/NewReactUI/Automate_NewUI/testng.xml</span>
+            <span class="header-content">/home/fayaz/git/EngageUIAutomation/Automate_NewUI/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.Reporting&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; parallel=&quot;classes&quot;&gt;
     &lt;parameter name=&quot;browsers&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;scripts.SegmentTest&quot;/&gt;
       &lt;class name=&quot;scripts.WPNEngagementTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -298,7 +333,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,48 +359,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'invalidWPNEngagement')
 data.setCell(0, 2, 'scripts.WPNEngagementTest')
-data.setCell(0, 3, 68740);
+data.setCell(0, 3, 57882);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'invalidWPNEngagement')
 data.setCell(1, 2, 'scripts.WPNEngagementTest')
-data.setCell(1, 3, 50828);
+data.setCell(1, 3, 50945);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'invalidWPNEngagement')
 data.setCell(2, 2, 'scripts.WPNEngagementTest')
-data.setCell(2, 3, 41380);
+data.setCell(2, 3, 47299);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'invalidWPNEngagement')
 data.setCell(3, 2, 'scripts.WPNEngagementTest')
-data.setCell(3, 3, 37795);
+data.setCell(3, 3, 44925);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'invalidWPNEngagement')
 data.setCell(4, 2, 'scripts.WPNEngagementTest')
-data.setCell(4, 3, 36329);
+data.setCell(4, 3, 43781);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'invalidWPNEngagement')
 data.setCell(5, 2, 'scripts.WPNEngagementTest')
-data.setCell(5, 3, 33148);
+data.setCell(5, 3, 35794);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'invalidWPNEngagement')
 data.setCell(6, 2, 'scripts.WPNEngagementTest')
-data.setCell(6, 3, 32697);
+data.setCell(6, 3, 35449);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'invalidWPNEngagement')
 data.setCell(7, 2, 'scripts.WPNEngagementTest')
-data.setCell(7, 3, 32054);
+data.setCell(7, 3, 35213);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'invalidWPNEngagement')
 data.setCell(8, 2, 'scripts.WPNEngagementTest')
-data.setCell(8, 3, 31269);
+data.setCell(8, 3, 32588);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'segmentCreationTest')
+data.setCell(9, 2, 'scripts.SegmentTest')
+data.setCell(9, 3, 31516);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'editSegmentTest')
+data.setCell(10, 2, 'scripts.SegmentTest')
+data.setCell(10, 3, 24771);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -380,9 +423,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">scripts.SegmentTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">archieveSegmentTest</span>
+                <br/>
+                <span class="ignored-method-name">duplicateSegmentTest</span>
+                <br/>
+                <span class="ignored-method-name">unarchiveSegmentTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">scripts.WPNEngagementTest</span>
               <div class="ignored-methods-div">
@@ -398,6 +452,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">scripts.SegmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">scripts.WPNEngagementTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
@@ -405,47 +466,109 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">instances(chrome)</span>
-                <span class="method-start">79627 ms</span>
+                <span class="method-start">14180 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.SegmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">segmentPreCondtion(chrome)</span>
+                <span class="method-start">14180 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">185292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">segmentCreationTest</span>
+                <span class="method-start">185294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">217523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editSegmentTest</span>
+                <span class="method-start">217523 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.WPNEngagementTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">259127 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidWPNEngagement(engagement3, <input onselect=alert(1) value="XSS" autofocus>, <input onselect=alert(1) value="XSS" a...)</span>
-                <span class="method-start">213577 ms</span>
+                <span class="method-start">259127 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">320374 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidWPNEngagement(engagement4, <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wa...)</span>
-                <span class="method-start">283405 ms</span>
+                <span class="method-start">320374 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">371507 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidWPNEngagement(engagement5, <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>, <script>'alert\...)</span>
-                <span class="method-start">334236 ms</span>
+                <span class="method-start">371508 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">418985 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidWPNEngagement(engagement6, <script>location='javascript:alert\x281\x29'</script>, <script>location='javascript:ale...)</span>
-                <span class="method-start">380876 ms</span>
+                <span class="method-start">418986 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">464386 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidWPNEngagement(NoLabel, title goes here, message goes here, https://www.google.com, Prsonal Loan, text goes herer, ...)</span>
-                <span class="method-start">417211 ms</span>
+                <span class="method-start">464386 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">508427 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidWPNEngagement(NoLabel, title goes here, message goes here, https://www.google.com, Prsonal Loan, text goes herer, ...)</span>
-                <span class="method-start">449911 ms</span>
+                <span class="method-start">508428 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">544078 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidWPNEngagement(inValidSchedule, title goes here, message goes here, https://www.google.com, Personal Loan, text goe...)</span>
-                <span class="method-start">487710 ms</span>
+                <span class="method-start">544079 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">576747 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidWPNEngagement(validInput1, title goes here, message goes here, https://www.google.com, Personal Loan, text goes he...)</span>
-                <span class="method-start">520862 ms</span>
+                <span class="method-start">576748 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">stopAutomate</span>
+                <span class="method-start">612632 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidWPNEngagement(vallidinput2, title goes here, message goes here, https://www.google.com, Personal Loan, text goes h...)</span>
-                <span class="method-start">552919 ms</span>
+                <span class="method-start">612632 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

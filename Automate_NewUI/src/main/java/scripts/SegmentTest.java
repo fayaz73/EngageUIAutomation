@@ -28,13 +28,14 @@ public class SegmentTest extends BaseTest {
 	SegmentPage segPage;
 	LoginPage lp;
 	boolean flg;
+	WebDriver driver;
 	
 	
 	@Parameters("browsers")
 	@BeforeClass
 	public void segmentPreCondtion(String br) throws IOException {
 		//DriverInit instanceDriver = DriverInit.getInstance();
-		WebDriver driver = getDriver();
+		driver = getDriver();
 		System.out.println("Test2 thread is :"+Thread.currentThread().getId());
 		//WebDriver driver1 = driver;
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
@@ -98,9 +99,9 @@ public class SegmentTest extends BaseTest {
 		}	
 	}
 	
-	@Test (enabled=false)
+	@Test (enabled=true, priority = 2)
 	public void editSegmentTest() throws IOException {
-		flg = segPage.FindandClickSegment("SegmentMangodfdfdfdfd");
+		flg = segPage.FindandClickSegment(Segname);
 		if(flg) {
 			segPage.clickEditSegmentBtn();
 			segPage.inputAddNewTagName("tagname1");

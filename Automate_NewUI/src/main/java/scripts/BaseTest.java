@@ -1,47 +1,39 @@
 package scripts;
-
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-
 import org.openqa.selenium.JavascriptExecutor;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
-
-import javax.script.Invocable;
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-
-import TestBase.DriverInit;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import io.github.bonigarcia.wdm.OperatingSystem;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pom.LoginPage;
+import utilities.ExtReport;
+import utilities.ExtTest;
 import utilities.ReadConfig;
 
 public class BaseTest {
@@ -52,10 +44,69 @@ public class BaseTest {
 	ReadConfig readconfig = new ReadConfig();
 	public String baseURL = readconfig.getApplicationURL();
 	//public String baseURL = "http://app.lemnisk.co:8080";
+	boolean flag = false;
+	
 	
 	//protected static ThreadLocal<ChromeDriver> driver1 = new ThreadLocal<>();
 	protected static ThreadLocal<WebDriver> driver1 = new ThreadLocal<>();
 	
+	
+	
+	//===================================dynamic reporting code====================================
+	
+	/*
+	public ExtentReports extent;
+	public ExtentTest logger1;
+	private static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+	//String timeStamp;
+	//String repName;
+	int i = 0;
+	
+	@BeforeClass
+	public void extentReport(ITestContext testContext) {
+		extent = ExtReport.getReport();
+	}
+	
+	@AfterMethod
+	public void testMethodStatus(ITestResult tr) throws InterruptedException {
+		if (tr.getStatus()==ITestResult.SUCCESS) {
+			this.i = this.i+1;
+			logger1=extent.createTest(tr.getName()+this.i); // create new entry in th report
+			ExtTest.setTest(logger1);
+			ExtTest.getTest().log(Status.PASS,MarkupHelper.createLabel(tr.getName()+this.i,ExtentColor.GREEN)); // send the passed information to the report with GREEN color highlighted
+		}
+		else if (tr.getStatus()==ITestResult.FAILURE) {
+			this.i = this.i+1;
+			logger1=extent.createTest(tr.getName()+this.i); // create new entry in th report
+			ExtTest.setTest(logger1);
+			ExtTest.getTest().log(Status.FAIL,MarkupHelper.createLabel(tr.getName()+this.i,ExtentColor.RED));// send the passed information to the report with GREEN color highlighted
+			ExtTest.getTest().error(tr.getThrowable());
+			String screenshotPath=System.getProperty("user.dir")+"/Screenshots/"+tr.getName()+this.i+".png";
+			
+			File f = new File(screenshotPath); 
+			
+			if(f.exists())
+			{
+			try {
+				ExtTest.getTest().fail("Screenshot is below:" + ExtTest.getTest().addScreenCaptureFromPath(screenshotPath));
+				
+				} 
+			catch (IOException e) 
+					{
+					e.printStackTrace();
+					}
+			}
+		}
+		else if (tr.getStatus()==ITestResult.SKIP){
+		System.out.println("the test status :" + tr.getStatus());
+		logger1=extent.createTest(tr.getName()); // create new entry in th report
+		ExtTest.setTest(logger1);
+		ExtTest.getTest().log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
+		}
+		extent.flush();	
+	}
+	*/
+	//===================================Reporting end==========================
 	
 	public WebDriver getDriver() {
 		//driver1.get().manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
@@ -63,16 +114,26 @@ public class BaseTest {
 		return driver1.get();	
 	}
 	
+	@BeforeMethod
+	public void stopAutomate() {
+		
+		//driver = getDriver();
+		if (flag) {
+			//driver.quit();
+			throw new SkipException("Skipping Test: ");
+		}
+		
+	}
+	
+	
 	@Parameters("browsers")
 	@BeforeClass
 	public void setUp(String br) {
 		if (br.equalsIgnoreCase("chrome")) {
 			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//exefiles/chromedriver");
-			
 			//WebDriverManager.chromedriver().operatingSystem(OperatingSystem.LINUX).setup();
 			//driver = new ChromeDriver();
-			//driver1 = new ThreadLocal<>();
-			
+			//driver1 = new ThreadLocal<>();	
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			LoggingPreferences logPrefs = new LoggingPreferences();
 			logPrefs.enable(LogType.BROWSER, Level.ALL);
@@ -80,37 +141,30 @@ public class BaseTest {
    		 	capabilities.setBrowserName("chrome");
    		 	capabilities.setPlatform(org.openqa.selenium.Platform.LINUX);
    		    //capabilities.setVersion("84.0");
-   		 
-   		 
 			 ChromeOptions chromeOptions = new ChromeOptions();
 	            chromeOptions.addArguments("--no-sandbox");
 	            chromeOptions.addArguments("--headless");
 	            chromeOptions.addArguments("disable-gpu");
                 chromeOptions.addArguments("window-size=1400,2100");
 			//driver1.set(new ChromeDriver(chromeOptions));
-			
                // capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
                 chromeOptions.merge(capabilities);
-                 
                	 try {
-					driver1.set(new RemoteWebDriver(new URL("http://192.168.43.74:4444/wd/hub"),
+					driver1.set(new RemoteWebDriver(new URL("http://172.27.232.157:4444/wd/hub"),
 							chromeOptions));
 					
 				} catch (MalformedURLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
-				}
-               
+				}  
 		}
 		else if (br.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().operatingSystem(OperatingSystem.LINUX).setup();
 			//driver = new FirefoxDriver();
 		}
 	}
-
 	//DriverInit instanceDriver;
 	LoginPage lp;
-	
 	/*
 	@Parameters("browsers")
 	@BeforeClass

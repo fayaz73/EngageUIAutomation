@@ -2,18 +2,27 @@ package scripts;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import TestBase.DriverInit;
 import pom.ChannelSummaryPage;
@@ -35,7 +44,7 @@ public class WPNEngagementTest extends BaseTest {
 	WPNChannelEngageListPage WPNl;
 	WPNEngagementCreationPage WPNc;
 	Logger logger;
-	//WebDriver driver1;
+	WebDriver driver;
 	/*
 	String engageName = "wpn_enagement";
 	String labelname = "Personal Loan";
@@ -59,7 +68,7 @@ public class WPNEngagementTest extends BaseTest {
 	@BeforeClass
 	public void instances(String br){
 		//DriverInit instanceDriver = DriverInit.getInstance();
-		WebDriver driver = getDriver();
+		driver = getDriver();
 		System.out.println("Test1 thread is :"+Thread.currentThread().getId());
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		driver.get(baseURL);
