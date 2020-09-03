@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
@@ -42,13 +43,13 @@ public class BaseTest {
 	WebDriver driver;
 	public static Logger logger;
 	ReadConfig readconfig = new ReadConfig();
-	public String baseURL = readconfig.getApplicationURL();
-	//public String baseURL = "http://app.lemnisk.co:8080";
+	//public String baseURL = readconfig.getApplicationURL();
+	public String baseURL = "https://app.lemnisk.co/#";
 	boolean flag = false;
 	
 	
-	//protected static ThreadLocal<ChromeDriver> driver1 = new ThreadLocal<>();
-	protected static ThreadLocal<WebDriver> driver1 = new ThreadLocal<>();
+	protected static ThreadLocal<ChromeDriver> driver1 = new ThreadLocal<>();
+	//protected static ThreadLocal<WebDriver> driver1 = new ThreadLocal<>();
 	
 	
 	
@@ -131,8 +132,8 @@ public class BaseTest {
 	public void setUp(String br) {
 		if (br.equalsIgnoreCase("chrome")) {
 			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//exefiles/chromedriver");
-			//WebDriverManager.chromedriver().operatingSystem(OperatingSystem.LINUX).setup();
-			//driver = new ChromeDriver();
+			WebDriverManager.chromedriver().operatingSystem(OperatingSystem.LINUX).setup();
+			//driver1 = new ChromeDriver();
 			//driver1 = new ThreadLocal<>();	
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			LoggingPreferences logPrefs = new LoggingPreferences();
@@ -146,17 +147,20 @@ public class BaseTest {
 	            chromeOptions.addArguments("--headless");
 	            chromeOptions.addArguments("disable-gpu");
                 chromeOptions.addArguments("window-size=1400,2100");
-			//driver1.set(new ChromeDriver(chromeOptions));
-               // capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
                 chromeOptions.merge(capabilities);
+			  driver1.set(new ChromeDriver(chromeOptions));
+               // capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+                
+               /* 
                	 try {
-					driver1.set(new RemoteWebDriver(new URL("http://172.27.232.157:4444/wd/hub"),
+					driver1.set(new RemoteWebDriver(new URL("http://192.168.43.74:4444/wd/hub"),
 							chromeOptions));
 					
 				} catch (MalformedURLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}  
+				*/
 		}
 		else if (br.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().operatingSystem(OperatingSystem.LINUX).setup();
